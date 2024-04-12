@@ -48,7 +48,6 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = "app.urls"
 
@@ -150,3 +149,5 @@ SPECTACULAR_SETTINGS = {
 }
 
 print(f"MODE: {MODE} \nMEDIA_URL: {MEDIA_URL} \nDATABASE: {DATABASES}")
+
+CORS_ALLOW_ALL_ORIGINS = True

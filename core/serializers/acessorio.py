@@ -5,4 +5,4 @@ from core.models import Acessorio
 class AcessorioSerializer(ModelSerializer):
     class Meta: 
         model = Acessorio
-        fidels = "__all__"
+        fields = "__all__"
